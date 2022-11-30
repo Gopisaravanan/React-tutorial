@@ -1,0 +1,16 @@
+.form {
+  margin: 50px;
+}
+.name {
+  margin: 5px;
+}
+.passsword {
+  margin: 5px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+/* .btn {
+  background-color: aqua;
+} */
