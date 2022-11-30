@@ -11,6 +11,15 @@
   text-decoration: none;
   color: black;
 }
-/* .btn {
+.btn {
   background-color: aqua;
-} */
+  border-radius: 5px;
+}
+.data {
+  margin: 5px;
+}
+.btn2 {
+  background-color: rgb(255, 0, 234);
+  border-radius: 5px;
+  color: black;
+}
