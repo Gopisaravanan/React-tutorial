@@ -5,8 +5,7 @@ import "./style.css";
 const Login = () => {
   const [input, setInput] = useState("");
   const [pass, setPass] = useState("");
-  console.log(input);
-  console.log(pass);
+
   return (
     <div className="form">
       <input
@@ -25,7 +24,7 @@ const Login = () => {
         onInput={(e) => setPass(e.target.value)}
       />
 
-      <Link to={`/abc/${input}/${pass}`}>
+      <Link to={`/${input}/${pass}`}>
         <button className="btn">login</button>
       </Link>
       <br />

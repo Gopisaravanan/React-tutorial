@@ -2,8 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 const User = () => {
-  const { id } = useParams();
-  const { id2 } = useParams();
+  const { id, id2 } = useParams();
+  // const { id2 } = useParams();
   return (
     <div>
       <h1>URL username : {id}</h1>
